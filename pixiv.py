@@ -20,7 +20,7 @@ class pixiv_crewler():
 		print('end query: ' + str(time.time() - tStart))
 		sorted_result = sorted(result, reverse = True,\
 			key = lambda _: _.stats.favorited_count.public + _.stats.favorited_count.private)
-		result = sorted_result[random.randint(0, advance_sample]
+		result = sorted_result[random.randint(0, advance_sample)]
 		return result.image_urls.px_480mw, result.image_urls.large
 
 	def __get_total_count(self, query):

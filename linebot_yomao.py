@@ -4,6 +4,7 @@ import flask
 import logging
 import requests
 import configparser
+import pixiv
 
 config = configparser.ConfigParser()
 config.sections()
@@ -13,6 +14,9 @@ WEBHOOK_PORT = int(config['Default']['webhook_port'])
 WEBHOOK_LISTEN = '0.0.0.0'
 
 WEBHOOK_URL_PATH = config['Default']['webhook_path']
+
+pixiv.pixiv_username = config['Default']['pixiv_username']
+pixiv.pixiv_password = config['Default']['pixiv_password']
 
 LINE_ENDPOINT = "https://trialbot-api.line.me"
 

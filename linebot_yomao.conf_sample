@@ -6,3 +6,9 @@ channel_secret = 1234567890qwertyuiop
 mid = qwertyuiopasdfghjkl1234567890zxcvbnm
 pixiv_username = username
 pixiv_password = password
+requests_kwargs = {
+	'proxies': {
+		'http': 'http://xxx.xxx.xxx.xxx:xxxx',
+		'https': 'http://xxx.xxx.xxx.xxx:xxxx'
+	}
+}

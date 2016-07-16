@@ -31,7 +31,7 @@ $ pip install -r requirements.txt
 ```
 /yomao keyword_A kwyword_B ...
 ```
-* After key in, it will take about 7~10 sec for retrieve image.
+* After key in, it will take about 7~10 secs for retrieving image.
  
 
 ![Demo_cat](http://i.imgur.com/0GZKD3e.png "Demo_pikachu")

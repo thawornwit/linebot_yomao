@@ -1,6 +1,6 @@
 # yomao
 ---
-yomao is a line bot that retrieve and post a popular image from pixiv by a keyword that user provide.
+yomao is a line bot that retrieve and post a popular image from [pixiv](http://www.pixiv.net/) by a keyword that user provide.
 
 yomoa is powered by [Line bot trial API](https://business.line.me/services/products/4/introduction).
 

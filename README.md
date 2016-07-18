@@ -1,6 +1,6 @@
 # yomao
 ---
-yomao is a line bot that retrieve and post a popular image from [pixiv](http://www.pixiv.net/) by a keyword that user provide.
+yomao is a line bot that retrieve and post a popular image from [pixiv](http://www.pixiv.net/) by keywords that provided by user.
 
 yomoa is powered by [Line bot trial API](https://business.line.me/services/products/4/introduction).
 
@@ -34,7 +34,7 @@ $ pip install -r requirements.txt
 * After key in, it will take about 7~10 secs for retrieving image.
  
 
-![Demo_cat](http://i.imgur.com/0GZKD3e.png "Demo_pikachu")
+![Demo_pikachu](http://i.imgur.com/0GZKD3e.png "Demo_pikachu")
 
 ### Author
 ---
